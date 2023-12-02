@@ -1,0 +1,48 @@
+ [
+      {
+        "type": "Regular",
+        "price": 200,
+        "benefits": [
+          "Access to all keynote sessions",
+          "Entry to exhibition area",
+          "Networking opportunities"
+        ]
+      },
+      {
+        "type": "VIP",
+        "price": 500,
+        "benefits": [
+          "Priority seating in keynote sessions",
+          "Exclusive access to VIP lounge",
+          "Complimentary conference swag",
+          "Personalized meet-and-greet with keynote speakers",
+          "VIP workshop sessions",
+          "Fast-track registration",
+          "Reserved parking"
+        ]
+      },
+      {
+        "type": "Student",
+        "price": 100,
+        "benefits": [
+          "Access to student-specific sessions",
+          "Career guidance workshops",
+          "Networking with industry professionals"
+        ]
+      },
+      {
+        "type": "Group",
+        "price": 1500,
+        "benefits": [
+          "Bulk discount for groups of 5 or more",
+          "Dedicated group seating in sessions",
+          "Customized group itinerary",
+          "Exclusive group networking event",
+          "Group photo sessions with speakers",
+          "Priority group check-in",
+          "Special group recognition during keynotes",
+          "Access to post-conference materials"
+        ]
+      }
+    ]
+  

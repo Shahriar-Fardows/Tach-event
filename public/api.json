@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Jhankar-Mahbub",
+    "image": "https://i.ibb.co/HhHkcBN/Screenshot-2023-11-30-020601-removebg-preview.png",
+    "title": "Founder of Programming Hero",
+    "description": "Mr. Jhankar Mahbub, the founder and CEO of ‘Programming Hero’, is a well-known figure in Bangladesh’s programming sector. He serves as a senior web developer, author, YouTuber, teacher, and entrepreneur all at the same time."
+  },
+  {
+    "id": 2,
+    "name": "Mark-Zuckerberg",
+    "image": "https://i.ibb.co/H7BbBf5/mark-zuckerberg-2000-dac49b85bc1c4bb696880e4005f041fc-removebg-preview.png",
+    "title": "CEO of Meta Platforms",
+    "description": "Mark Elliot Zuckerberg (born May 14, 1984) is an American business magnate, computer programmer, internet entrepreneur, and philanthropist. He co-founded the social media service Facebook and its parent company Meta Platforms (formerly Facebook, Inc.). "
+  },
+  {
+    "id": 3,
+    "name": "Sundar-Pichai",
+    "image": "https://i.ibb.co/qkXHv51/profile-pic.png",
+    "title": "CEO of Alphabet and Google",
+    "description": "Pichai Sundararajan (born June 10, 1972), better known as Sundar Pichai , is an Indian-born American business executive. He is the chief executive officer (CEO) of Alphabet Inc. and its subsidiary Google."
+  },
+  {
+    "id": 4,
+    "name": "Elon-Musk",
+    "image": "https://i.ibb.co/CB18G97/db10-Musk-twqp-medium-Square-At3-X-v2-removebg-preview.png",
+    "title": "Founder and CEO of SpaceX",
+    "description": "Elon Reeve Musk (born June 28, 1971) is a businessman and investor. Musk is the founder, chairman, CEO and chief technology officer of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc.; owner, chairman and CTO of X Corp.; founder of the Boring Company and xAI; co-founder of Neuralink and OpenAI."
+  },
+  {
+    "id": 5,
+    "name": "Jeff-Bezos",
+    "image": "https://i.ibb.co/W355jFC/profile-pic-1.png    ",
+    "title": "Chairman of Amazon",
+    "description": "Jeffrey Preston Bezos (né Jorgensen; born January 12, 1964) is an American entrepreneur, media proprietor and investor. He is the founder, executive chairman, and former president and CEO of Amazon, the world's largest e-commerce and cloud computing company."
+  },
+  {
+    "id": 6,
+    "name": "Steve-Jobs",
+    "image": "https://i.ibb.co/Qc6n5Pj/profile-pic-3.png    ",
+    "title": "CEO of Apple Inc",
+    "description": "Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American business magnate, inventor, and investor best known as the co-founder of Apple. Jobs was also chairman and majority shareholder of Pixar, and the founder of NeXT."
+  },
+  {
+    "id": 7,
+    "name": "Sumit-Saha",
+    "image": "https://i.ibb.co/vPfgTR3/profile-pic-2.png    ",
+    "title": "Founder Learn with Sumit - LWS",
+    "description": "Sumit is an entrepreneurial visionary known for his exceptional performance and passion for technology and business. He established Analyzen in 2008 while he was a student at Bangladesh University of Engineering & Technology (BUET)."
+  },
+  {
+    "id": 8,
+    "name": "HM-Nayem",
+    "image": "https://i.ibb.co/LxbTXqz/profile-pic-4.png    ",
+    "title": "Founder & Educator, Stack Learner",
+    "description": "HM Nayem is an accomplished full-stack (MERN) web application developer, cloud practitioner, competitive coder, entrepreneur, and educator who constantly looks for new challenges to tackle in the real world."
+  }
+]
+
