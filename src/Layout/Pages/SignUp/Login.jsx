@@ -2,13 +2,14 @@ import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Context } from "../../../Context/Contexts";
 import toast, { Toaster } from 'react-hot-toast';
+import {Helmet} from "react-helmet";
 
 const Login = () => {
     const notify = () => toast.success('Successfully Sign In !');
     const ip = useLocation();
     const Navigate = useNavigate();
 
-    const { loginUser,GoogleLogIn } = useContext(Context);
+    const { loginUser, GoogleLogIn } = useContext(Context);
 
     const Submit = e => {
         e.preventDefault();
@@ -26,7 +27,7 @@ const Login = () => {
                 const user = userCredential.user;
                 console.log(user)
                 notify()
-                Navigate(ip?.state ? ip?.state : '/' )
+                Navigate(ip?.state ? ip?.state : '/')
                 // ...
             })
             .catch((error) => {
@@ -37,22 +38,22 @@ const Login = () => {
             });
     }
 
-    const Google = () =>{
+    const Google = () => {
         GoogleLogIn()
-        .then((userCredential) => {
-            // Signed up 
-            const user = userCredential.user;
-            console.log(user)
-            notify()
-            Navigate(ip?.state ? ip?.state : '/' )
-            // ...
-          })
-          .catch((error) => {
-        
-            const errorMessage = error.message;
-            console.log(errorMessage)
-            // ..
-          });
+            .then((userCredential) => {
+                // Signed up 
+                const user = userCredential.user;
+                console.log(user)
+                notify()
+                Navigate(ip?.state ? ip?.state : '/')
+                // ...
+            })
+            .catch((error) => {
+
+                const errorMessage = error.message;
+                console.log(errorMessage)
+                // ..
+            });
     }
 
 
@@ -61,8 +62,16 @@ const Login = () => {
 
 
         <div className="max-w-7xl flex justify-center py-10  mx-auto">
-            <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">                       
-             <Toaster />
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Login</title>
+
+            </Helmet>
+
+            <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+                <Toaster />
+
 
                 <form onSubmit={Submit} className="space-y-6" action="#">
                     <h5 className="text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h5>

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Context } from "../../Context/Contexts";
 import toast, { Toaster } from 'react-hot-toast';
+import {Helmet} from "react-helmet";
 
 
 const SignUp = () => {
@@ -59,6 +60,11 @@ const SignUp = () => {
 
     return (
         <div className="  px-10  py-[6.5rem]">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Sing Up</title>
+               
+            </Helmet>
                         <Toaster />
             <form onSubmit={Submit} className="max-w-md mx-auto">
                 <div className="relative z-0 w-full mb-5 group">
